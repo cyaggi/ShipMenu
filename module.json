@@ -5,7 +5,7 @@
    "author": "Curtis",
    "version": "1.0.0",
    "minimumCoreVersion": "0.8.0",
-   "compatibleCoreVersion":"9",
+   "compatibleCoreVersion":"10",
    "url":"https://github.com/cyaggi/ShipMenu/",
    "manifest":"https://github.com/cyaggi/ShipMenu/releases/download/Saltmarsh/module.json",
    "download":"https://github.com/cyaggi/ShipMenu/releases/download/Saltmarsh/ShipMenu.zip",
