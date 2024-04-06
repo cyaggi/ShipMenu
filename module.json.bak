@@ -1,47 +1,36 @@
-{   
-   "name": "ShipMenu",   
-   "title": "Ship Menu",   
-   "description": "Menu for Saltmarsh",   
-   "author": "Curtis",
-   "version": "1.0.0",
-   "minimumCoreVersion": "0.5.0",
-   "compatibleCoreVersion":"0.7.9",
-"packs": [
-    {         
-   	"name": "menutriggers",
-   	"label": "Menu Triggers",
-   	"path": "packs/ship-menu-triggers.db",
-   	"entity": "JournalEntry",
-   	"module": "ShipMenu"
-    },
+{
+  "title": "Ship Menu",
+  "description": "Menu for Saltmarsh",
+    "author": "name": "KaatisSensei",
+  "packs": [
     {
-      "name": "buttons",
-      "label": "Menu buttons",
-      "path": "packs/ship-menu-btns.db",
-      "entity": "Actor",
-      "module": "ShipMenu"
-    },
-    {
-      "name": "scenes",
-      "label": "Ship Menu Scenes",
-      "path": "packs/ship-menu-scenes.db",
-      "entity": "Scene",
-      "module": "ShipMenu"
-    },
-    {
-      "name": "playlists",
-      "label": "Ship Menu Playlist",
-      "path": "packs/ship-menu-playlist.db",
-      "entity": "Playlist",
-      "module": "ShipMenu"
-    },
-    {
-      "name": "macros",
-      "label": "Ship Menu Macros",
-      "path": "packs/ship-menu-macros.db",
-      "entity": "Macro",
-      "module": "ShipMenu"
+      "name": "saltmarsh-menu",
+      "label": "Saltmarsh Menu",
+      "path": "packs/saltmarsh-menu",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
-
-  ]
- }
+  ],
+  "id": "ShipMenu",
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "9",
+    "verified": "11"
+  },
+  "version": "1.2.0",
+  "url": "https://github.com/cyaggi/ShipMenu/",
+  "manifest": "https://github.com/cyaggi/ShipMenu/releases/latest/download/module.json",
+  "download": "https://github.com/cyaggi/ShipMenu/releases/download/1.2/ShipMenu.zip"
+}
