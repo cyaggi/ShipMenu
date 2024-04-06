@@ -1,7 +1,11 @@
 {
   "title": "Ship Menu",
   "description": "Menu for Saltmarsh",
-    "author": "name": "KaatisSensei",
+    "authors": [
+    {
+      "name": "KaatisSensei"
+    }
+  ],
   "packs": [
     {
       "name": "saltmarsh-menu",
